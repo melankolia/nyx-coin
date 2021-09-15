@@ -7,9 +7,9 @@
       <a href="#news">News</a>
     </div>
     <div class="icon-container">
-      <img :src="IconTwitter" height="20px" width="20px" alt="" />
-      <img :src="IconTelegram" height="20px" width="20px" alt="" />
-      <img :src="IconEmail" height="20px" width="20px" alt="" />
+      <img :src="IconTwitter" height="28px" width="28px" alt="" />
+      <img :src="IconTelegram" height="28px" width="28px" alt="" />
+      <img :src="IconEmail" height="28px" width="28px" alt="" />
     </div>
   </div>
 </template>
