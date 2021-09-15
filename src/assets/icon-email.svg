@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="移动端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="移动端-(320-416-)-左侧导航" transform="translate(-280.000000, -14.000000)">
+            <g id="icon-email" transform="translate(280.000000, 14.000000)">
+                <circle id="Oval-16" fill="#3389DF" cx="10" cy="10" r="10"></circle>
+                <path d="M6.00011562,6 L13.9998844,6 C14.5456122,6 14.9930628,6.44385578 15,6.98778514 L10.0017343,9.78160412 L5.00462481,6.99131714 C5.00924962,6.44503311 5.45323159,6 6.00011562,6 Z M5.00462481,8.06033848 L5,13.0004415 C5,13.5502575 5.44976298,14 6.00011562,14 L13.9998844,14 C14.550237,14 15,13.5502575 15,13.0004415 L15,8.05798381 L10.119667,10.7211185 C10.0445138,10.7623252 9.95432998,10.7623252 9.88033299,10.7211185 L5.00462481,8.06033848 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
