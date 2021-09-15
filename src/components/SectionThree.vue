@@ -77,6 +77,8 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .feature-item {
@@ -91,5 +93,13 @@ export default {
 .feature-item > p {
   font-size: 24px;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 720px) {
+  .feature-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 </style>

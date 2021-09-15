@@ -73,4 +73,28 @@ export default {
   height: 80%;
   margin-top: -200px;
 }
+
+@media only screen and (max-width: 720px) {
+  .main-title {
+    font-size: 30px;
+    margin: 160px 0px 22px;
+  }
+
+  .desc-title {
+    margin: 22px 80px 0px;
+  }
+
+  .image-phone {
+    display: none;
+  }
+
+  .text {
+    margin-top: 20px;
+  }
+
+  .txt-whitepaper {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
 </style>

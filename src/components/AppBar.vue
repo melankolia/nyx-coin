@@ -1,7 +1,7 @@
 <template>
   <div class="topnav">
     <div>
-      <a class="active" href="#home">Home</a>
+      <a href="#home">Home</a>
       <a href="#project">Project</a>
       <a href="#application">Application</a>
       <a href="#news">News</a>
@@ -65,5 +65,9 @@ export default {
 
 .icon-container img {
   margin: 0 4px;
+}
+
+a:focus {
+  color: #fff;
 }
 </style>

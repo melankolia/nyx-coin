@@ -6,7 +6,7 @@
         height="480px"
         :src="wireframePhone"
         alt="section four"
-        style="margin-right: 70px"
+        class="image-phone"
       />
       <div style="max-width: 65%">
         <p class="main-title">Keep Up with the Latest Trend</p>
@@ -60,5 +60,43 @@ export default {
   text-align: left;
   font-size: 26px;
   margin: 20% 0;
+}
+
+.image-phone {
+  margin-right: 70px;
+}
+
+@media only screen and (max-width: 720px) {
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-phone {
+    margin: 0;
+  }
+
+  .main-title {
+    margin-top: 20px;
+  }
+
+  .subtitle {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .section-four-wrapper {
+    padding: 30px 30px;
+  }
+  .main-title {
+    font-size: 30px;
+    padding: 0;
+  }
+
+  .subtitle {
+    font-size: 22px;
+  }
 }
 </style>

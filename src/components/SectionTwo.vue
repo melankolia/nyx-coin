@@ -26,10 +26,10 @@
           </p>
           <MobileVersion />
         </div>
-        <img :src="robotImage" width="420px" height="280px" alt="robot image" />
+        <img class="robot-image" :src="robotImage" alt="robot image" />
       </div>
       <div v-else class="content-item">
-        <img :src="robotImage" width="420px" height="280px" alt="robot image" />
+        <img class="robot-image" :src="robotImage" alt="robot image" />
         <div class="item">
           <p class="open-font" style="margin-left: 30px">
             Community members, social media influencers and <br />
@@ -77,16 +77,6 @@ export default {
   background-color: #f1e7ff;
 }
 
-.main-title {
-  font-size: 40px;
-  font-weight: 700;
-  padding: 0 22px;
-  margin: 0px 0px 22px;
-  text-align: center;
-  line-height: 1.5;
-  margin-bottom: 40px;
-}
-
 .switch-wrapper {
   display: flex;
   flex-direction: row;
@@ -110,6 +100,16 @@ export default {
   font-weight: 700;
 }
 
+.main-title {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 0 22px;
+  margin: 0px 0px 22px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
 .content-wrapper {
   margin: 40px 0 0 0;
   justify-content: flex-start;
@@ -131,5 +131,34 @@ export default {
 .open-font {
   text-align: left;
   font-size: 26px;
+}
+
+.robot-image {
+  max-width: 420px;
+  max-height: 280px;
+}
+
+@media only screen and (max-width: 500px) {
+  .robot-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .switch-item {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .content-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .open-font {
+    text-align: center !important;
+    margin: 0 !important;
+  }
 }
 </style>

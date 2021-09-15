@@ -135,10 +135,12 @@ export default {
   margin: 0 20px;
   justify-content: space-between;
   align-items: center;
-  width: 20%;
 }
 
-.icon-container img {
-  margin: 0 4px;
+@media only screen and (max-width: 720px) {
+}
+
+.icon-container > img {
+  margin: 0 12px;
 }
 </style>

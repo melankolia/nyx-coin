@@ -1,7 +1,14 @@
 <template>
   <div id="news" class="section-news-wrapper">
     <p class="main-title">News</p>
-    <carousel :per-page="3" :autoplay="true">
+    <carousel
+      :perPageCustom="[
+        [480, 2],
+        [768, 3],
+      ]"
+      :per-page="3"
+      :autoplay="true"
+    >
       <slide>
         <NewsCard />
       </slide>
@@ -36,6 +43,11 @@ const NewsCard = () => import("../components/NewsCard");
 export default {
   components: {
     NewsCard,
+  },
+  data() {
+    return {
+      windowWidth: window.offsetWidth,
+    };
   },
 };
 </script>
